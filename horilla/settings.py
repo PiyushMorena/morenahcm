@@ -44,16 +44,16 @@ DEBUG = env("DEBUG")
 
 ALLOWED_HOSTS = env("ALLOWED_HOSTS")
 
-ALLOWED_HOSTS = [
-    ".onrender.com",
-    "morenahcm.onrender.com",
-    "localhost",
-    "127.0.0.1",
-]
+# ALLOWED_HOSTS = [
+#     ".onrender.com",
+#     "morenahcm.onrender.com",
+#     "localhost",
+#     "127.0.0.1",
+# ]
 
-CSRF_TRUSTED_ORIGINS = [
-    "https://morenahcm.onrender.com",
-]
+# CSRF_TRUSTED_ORIGINS = [
+#     "https://morenahcm.onrender.com",
+# ]
 
 # Application definition
 
